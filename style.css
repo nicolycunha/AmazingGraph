@@ -25,7 +25,7 @@ navbar {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: 64px 44px;
+  padding: 6vh;
 }
 
 a {
@@ -46,7 +46,7 @@ a {
 
 li {
   list-style-type: none;
-  margin-left: 32px;
+  margin-left: 5vw;
 }
 
 p {
@@ -55,18 +55,18 @@ p {
 }
 
 .texto {
-  margin-left: 96px;
+  margin-left: 13vh;
 }
 
 .titulo {
   font-size: 4.7rem;
   font-weight: bold;
-  margin-bottom: 40px;
+  margin-bottom: 7vh;
 }
 
 .informacao {
   font-size: 2rem;
-  padding-right: 40px;
+  padding-right: 7vw;
 }
 
 button {
@@ -76,15 +76,20 @@ button {
   font-size: 1.75rem;
   border: none;
   border-radius: 10px;
-  padding: 13px 64px;
+  padding: 2.5vh 7vw;
+  cursor: pointer;
+}
+style.css
+button:hover{
+  background-color: #eca043;
+  box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.1);
 }
 
 img {
-  margin-top: 35px;
-  /*max-width: 100%;*/
-  width: 700px;
+  margin-top: 25px;
+  width: 52vw;
   position: relative;
-  left: -140px;
+  left: -9vw;
   z-index: -1;
 }
 
