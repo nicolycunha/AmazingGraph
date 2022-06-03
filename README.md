@@ -16,7 +16,8 @@
   </p>
 </p>
 
-
+# Objective
+Este repositório foi criado com o objetivo de me desafiar a partir do conteúdo estudado sobre front-end.
 
 # Welcome :)
 <a href="https://devchallenge.now.sh/"> DevChallenge</a> allow you to improve your skills!
