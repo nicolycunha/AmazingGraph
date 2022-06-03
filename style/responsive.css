@@ -48,11 +48,44 @@
   .acoes.active {
     transform: translateX(0);
   }
-  
-  .images img {
+
+  .menu-mobile {
+    padding-left: calc(30% - 10vw);
+  }
+
+  .principal {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .imagem {
+    text-align: center;
+  }
+
+  .imagem img {
+    width: 80vw;
+    padding-bottom: 5vh;
     position: static;
     z-index: 0;
     left: 0;
+  }
+
+  .informacao {
+    text-align: center;
+    margin: 0 5vw;
+  }
+
+  .titulo {
+    font-size: 3rem;
+  }
+
+  .texto {
+    font-size: 1.5rem;
+    padding: 0;
+  }
+
+  .botao {
+    width: 75vw;
   }
 
   @keyframes navLinkFade {
@@ -81,42 +114,10 @@
   .navegacao {
     padding: 6vh 5vw;
   }
+}
 
+@media (max-width: 340px) {
   .menu-mobile {
-    padding-left: calc(30% - 10vw);
+    padding-left: calc(20% - 10vw);
   }
-
-  .principal {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .imagem{
-    text-align: center;
-  }
-
-  .imagem > img{
-    width: 80vw;
-    padding-bottom: 5vh;
-    position: static;
-  }
-
-  .texto {
-    text-align: center;
-    margin: 0 5vw;
-  }
-
-  .titulo{
-    font-size: 3rem;
-  }
-
-  .informacao{
-    font-size: 1.5rem;
-    padding: 0;
-  }
-
-  .botao{
-    width: 75vw;
-  }
-
 }
