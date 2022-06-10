@@ -9,7 +9,7 @@
     Landing page to create amazing graphics 
        <br />
     <br />
-    <a href="https://nicolycunha.github.io/maratona-explorer">Projeto</a>
+    <a href="https://nicolycunha.github.io/AmazingGraph">Projeto</a>
     ·
     <a href="https://www.linkedin.com/in/nicoly-oliveira-da-cunha/">Contato</a>
   </p>
