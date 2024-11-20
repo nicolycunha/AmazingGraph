@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="http://www.freepik.com">
+  <a href="https://nicolycunha.github.io/AmazingGraph">
     <img src="./assets/team.jpg" alt="Logo" width="300" height="200">
   </a>
 
